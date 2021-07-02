@@ -8,11 +8,11 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ballerz',
-      darkTheme: ThemeData(
+      theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyApp(),
-
+      home: MyPlayers(),
+    debugShowCheckedModeBanner: false,
     );
   }
 }
